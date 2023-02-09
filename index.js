@@ -51,6 +51,15 @@ const questions = [
         name:"tests",
         message:"tests",
     },
+    // create a new question of type list
+    // will have additional 'choices' field with an array of 3 open source licenses 
+    // mit, apache 2.0, gpl 3.0 or none
+    {    
+        type:"list",
+        name:"license",
+        message:"what license did you use?",
+        choices:["MIT","Apache_2.0","GPL","none"]
+    },
 ];
 
 // TODO: Create a function to write README file
